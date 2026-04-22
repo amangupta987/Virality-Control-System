@@ -7,7 +7,7 @@ services:
     container_name: virality-mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: W7301@jqir#
+      MYSQL_ROOT_PASSWORD: jqir#
       MYSQL_DATABASE: virality_db
     ports:
       - "3306:3306"
